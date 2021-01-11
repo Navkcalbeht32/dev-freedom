@@ -1,0 +1,28 @@
+.cta {
+    width: 90%;
+    margin: 30px auto;
+    max-width: 1000px;
+    position: relative;
+
+    .info-container {
+        padding: 20px 30px;
+
+        p {
+            padding: 20px 0;
+            max-width: 310px;
+        }
+    }
+    .button-container {
+        width: 220px;
+    }
+
+    .phone-image {
+        margin-top: 40px;
+        height: 400px;
+    }
+}
+
+.icon {
+    width: 100%;
+    padding: 0 10px;
+}
