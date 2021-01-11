@@ -3,6 +3,7 @@ import './Hero.styles.scss';
 import { ReactComponent as DevFreedom } from '../../assets/dev-freedom.svg';
 import { ReactComponent as Dots } from '../../assets/dots.svg';
 import CardItem from '../Card/CardItem.component';
+import CustomButton from '../Button/CustomButton.component';
 
 const Hero = () => {
     return (
@@ -16,8 +17,8 @@ const Hero = () => {
             <div className="card-container">
                 <CardItem />
                 <Dots className="dots" />
+                
             </div>
-            
         </div>
     )
 }
