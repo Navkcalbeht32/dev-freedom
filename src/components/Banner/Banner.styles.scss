@@ -47,3 +47,9 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .banner-left, .banner-right {
+        display: none;
+    }
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import './Navbar.styles.scss';
 import { ReactComponent as Logo } from '../../assets/df-logo.svg'
 import CustomButton from '../Button/CustomButton.component';
+import SwipeableTemporaryDrawer from '../Drawer';
 
 const Navbar = () => {
     return (
@@ -15,6 +16,9 @@ const Navbar = () => {
                     <a href=""><li>About</li></a>
                     <CustomButton className="button" title="Discord"/>
                 </ul>
+                <div className="drawer">
+                        <SwipeableTemporaryDrawer className="menu" />
+                    </div>
             </div>
         </div>
     )

@@ -7,7 +7,6 @@
 
     .navbar-wrapper {
         width: 90%;
-        max-width: 1000px;
         margin: 20px auto;
         display: flex;
         align-items: center;
@@ -21,21 +20,62 @@
 
     .navbar-links {
         height: 100%;
+        width: 70%;
+        max-width: 600px;
+        display: flex;
+        justify-content: space-between;
     }
 
     ul a {
         font-size: 14px;
         width: fit-content;
-        margin: 0 30px;
         color: #000;
         padding: 10px;
-        border-bottom: 1px solid #fff;
+        border-bottom: 3px solid #fff;
         transition: ease-in-out 0.1s;
     }
 
     ul a:hover {
         color: #000;
-        padding-bottom: 13px;
         border-bottom: 3px solid #263CAB;
     }
 }
+
+.drawer {
+    display: none;
+
+    .menu {
+        cursor: pointer;
+    }
+}
+
+.drawer-container {
+    width: 30%;
+}
+
+.navbar-links-drawer {
+    display: flex;
+    flex-direction: column;
+
+    ul a:hover {
+        color: #000;
+        border-bottom: 3px solid #263CAB;
+    }
+}
+
+@media (max-width: 958px) {
+    .drawer {
+        display: block;
+    }
+
+    .navbar .navbar-links {
+        width: 0%;
+        
+    }
+
+    .navbar-links a, .button {
+        display: none;
+    }
+
+}
+

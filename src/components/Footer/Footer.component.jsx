@@ -4,7 +4,7 @@ import './Footer.styles.scss';
 const Footer = () => {
     return (
         <div className="footer">
-            <a href="http://www.freepik.com">Designed by slidesgo / Freepik</a>
+            {/* <a href="http://www.freepik.com">Designed by slidesgo / Freepik</a> */}
         </div>
     )
 }

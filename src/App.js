@@ -13,6 +13,7 @@ import Data from './assets/data.jpg';
 import Team from './assets/team.jpg';
 import Shop from './assets/shop.jpg';
 
+
 function App() {
   return (
 
@@ -25,7 +26,7 @@ function App() {
               <CustomCards title="Guide" heading="Erasing Your Digital Footprint: A Guide" image={Data}/>
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
-              <CustomCards title="title" heading="Development: Infrastructure of the Future" image={Team}/>
+              <CustomCards title="title" heading="Web App Development: Infrastructure of the Future" image={Team}/>
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <CustomCards title="title" heading="Security in Mind Products: Tech & More" image={Shop} />
@@ -33,7 +34,7 @@ function App() {
             
           </Grid>
           <Grid container direction="row">
-            <CTA />
+            {/* <CTA /> */}
           </Grid>
           <Footer />
       </Grid>

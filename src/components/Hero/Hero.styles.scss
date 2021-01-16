@@ -1,7 +1,7 @@
 .hero {
     width: 90%;
     max-width: 1000px;
-    margin: 60px auto;
+    margin: 70px auto;
     height: 400px;
     position: relative;
     display: flex;
@@ -9,7 +9,7 @@
     
     .title-container {
         height: 100%;
-        width: 50%;
+        width: 100%;
     }
 
     .hero-title {
@@ -27,7 +27,7 @@
 
     .card-container {
         height: 100%;
-        width: 50%;
+        width: 100%;
         position: relative;
     }
 }
@@ -37,5 +37,16 @@
     right: 0;
     top: 0;
     z-index: -1;
-    width: 500px;
+    width: 100%;
+}
+
+@media (max-width: 958px) {
+    .dots {
+        display: none;
+    }
+
+    .hero {
+        margin-bottom: 0;
+        height: 350px;
+    }
 }
