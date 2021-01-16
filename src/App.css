@@ -17,3 +17,8 @@ ul li {
   list-style: none;
   display: inline-block;
 }
+
+.card-grid {
+  max-width: 1000px;
+  margin: 20px auto;
+}
