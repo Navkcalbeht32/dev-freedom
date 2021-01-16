@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.styles.scss';
 import { ReactComponent as DevFreedom } from '../../assets/dev-freedom.svg';
-import { ReactComponent as Dots } from '../../assets/dots.svg';
+import dots from '../../assets/hero.png';
 import CardItem from '../Card/CardItem.component';
 import CustomButton from '../Button/CustomButton.component';
 
@@ -15,8 +15,8 @@ const Hero = () => {
                 </div>
             </div>
             <div className="card-container">
-                <CardItem />
-                <Dots className="dots" />
+                {/* <CardItem /> */}
+                <img src={dots} alt="" className="dots"/>
                 
             </div>
         </div>

@@ -1,0 +1,49 @@
+.banner {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(90deg,#3251d8 0%,#62dba6);
+    // background: linear-gradient(90deg,#3072be 0%,#5b9fef);
+
+    .banner-wrapper {
+        width: 100%;
+        max-width: 1000px;
+        padding: 0 10px;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #fff;
+        font-weight: 200;
+        font-size: 13px;
+
+        button {
+            border: none;
+            border-radius: 50px;
+            padding: 4px 12px;
+            margin-right: 12px;
+            transition: ease-in-out 0.2s;
+        }
+
+        button:hover {
+            border: none;
+            border-radius: 50px;
+            transform: translateX(4px);
+            cursor: pointer;
+        }
+
+        .banner-right {
+
+            a {
+                margin: 0 10px;
+                color: #fff;
+                font-weight: 700;
+            }
+
+            a:hover {
+               text-decoration: underline;
+               cursor: pointer; 
+            }
+        }
+    }
+}

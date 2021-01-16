@@ -1,7 +1,7 @@
 .hero {
     width: 90%;
     max-width: 1000px;
-    margin: 80px auto;
+    margin: 60px auto;
     height: 400px;
     position: relative;
     display: flex;
@@ -19,7 +19,7 @@
     }
 
     .hero-title h2 {
-        font-size: 32px;
+        font-size: 26px;
         font-weight: 100;
         padding-left: 30px;
         color: #6B6B6B;
@@ -37,5 +37,5 @@
     right: 0;
     top: 0;
     z-index: -1;
-    width: 250px;
+    width: 500px;
 }

@@ -5,6 +5,10 @@
   font-family: 'Raleway', sans-serif;
 }
 
+button:focus {
+  outline: 0 !important;
+}
+
 a {
   text-decoration: none;
 }

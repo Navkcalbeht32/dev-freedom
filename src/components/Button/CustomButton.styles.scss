@@ -1,18 +1,17 @@
 .button {
-    width: 100%;
+    width: fit-content;
     height: fit-content;
-    padding: 10px 50px;
+    padding: 8px 40px;
     border-radius: 50px;
     color: #fff;
     background-color: #263CAB;
     font-size: 16px;
     font-weight: 400;
     border: none;
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.1s;
 }
 
 .button:hover {
     transform: translateY(2px);
-    filter: brightness(1.4);
     cursor: pointer;
 }

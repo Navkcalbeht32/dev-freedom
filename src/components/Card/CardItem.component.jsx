@@ -7,13 +7,15 @@ import { ReactComponent as Instagram } from '../../assets/instagram-square.svg';
 const Card = () => {
     return (
         <div className="card">
+            
             <div className="discord">
                 <h3 className="heading">
                 Join our Discord <br/> Server
                 </h3>
                 <Discord className="card-icon" />
-                <CustomButton title="Discord" />
+                <CustomButton link="https://discord.gg/JyZX9dD6" title="Discord" />
             </div>
+            
             <div className="instagram">
                 <h3 className="heading">
                 Instagram Page <br/> <span>(while it lasts)</span>
