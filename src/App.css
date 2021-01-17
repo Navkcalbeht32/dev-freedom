@@ -22,3 +22,8 @@ ul li {
   max-width: 1000px;
   margin: 20px auto;
 }
+
+.mini-cards {
+  margin-top: 60px;
+  position: relative;
+}

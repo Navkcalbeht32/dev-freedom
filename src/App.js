@@ -12,6 +12,14 @@ import CustomCards from './components/CustomCards/CustomCards.component';
 import Data from './assets/data.jpg';
 import Team from './assets/team.jpg';
 import Shop from './assets/shop.jpg';
+import Section from './components/Section/Section.component';
+import MiniCard from './components/MiniCard/MiniCard.component';
+import { ReactComponent as Google } from './assets/google.svg';
+import { ReactComponent as Facebook } from './assets/facebook.svg';
+import { ReactComponent as Gmail } from './assets/gmail.svg';
+import { ReactComponent as Snapchat } from './assets/snapchat.svg';
+import { ReactComponent as Instagram } from './assets/instagram.svg';
+
 
 
 function App() {
@@ -34,7 +42,20 @@ function App() {
             
           </Grid>
           <Grid container direction="row">
-            {/* <CTA /> */}
+            <Section heading="How Big-Tech Applications use your Data" subheading="and what they know about you."  />
+            <Grid container direction="row"  justify="center" className="mini-cards">
+              <MiniCard Icon={Google} title="Google" />
+              <MiniCard Icon={Instagram} title="Instagram" />
+              <MiniCard Icon={Facebook} title="Facebook" />
+              <MiniCard Icon={Snapchat} title="Snapchat" />
+              <MiniCard Icon={Gmail} title="Gmail" />
+            </Grid>
+            
+          </Grid>
+
+          <Section heading="Become a Web App Developer" subheading="resources linked below." />
+          <Grid container direction="row">
+            <CTA /> 
           </Grid>
           <Footer />
       </Grid>

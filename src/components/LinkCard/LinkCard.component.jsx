@@ -1,6 +1,5 @@
 import React from 'react';
 import './LinkCard.styles.scss';
-import { ReactComponent as Web } from '../../assets/web.svg';
 
 const LinkCard = (props) => {
     return (

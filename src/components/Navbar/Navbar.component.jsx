@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.styles.scss';
-import { ReactComponent as Logo } from '../../assets/df-logo.svg'
+import { ReactComponent as Logo } from '../../assets/df-logo.svg';
 import CustomButton from '../Button/CustomButton.component';
 import SwipeableTemporaryDrawer from '../Drawer';
 
