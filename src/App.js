@@ -19,6 +19,10 @@ import { ReactComponent as Facebook } from './assets/facebook.svg';
 import { ReactComponent as Gmail } from './assets/gmail.svg';
 import { ReactComponent as Snapchat } from './assets/snapchat.svg';
 import { ReactComponent as Instagram } from './assets/instagram.svg';
+import { ReactComponent as Tiktok } from './assets/tik-tok.svg';
+import { ReactComponent as Messenger} from './assets/messenger.svg';
+import { ReactComponent as GooglePhotos} from './assets/google-photos.svg';
+import { ReactComponent as WeChat} from './assets/wechat.svg';
 
 
 
@@ -34,10 +38,10 @@ function App() {
               <CustomCards title="Guide" heading="Erasing Your Digital Footprint: A Guide" image={Data}/>
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
-              <CustomCards title="title" heading="Web App Development: Infrastructure of the Future" image={Team}/>
+              <CustomCards title="Info" heading="Web App Development: Infrastructure of the Future" image={Team}/>
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
-              <CustomCards title="title" heading="Security in Mind Products: Tech & More" image={Shop} />
+              <CustomCards title="Info" heading="Security in Mind Products: Tech & Hardware" image={Shop} />
             </Grid>
             
           </Grid>
@@ -48,12 +52,16 @@ function App() {
               <MiniCard Icon={Instagram} title="Instagram" />
               <MiniCard Icon={Facebook} title="Facebook" />
               <MiniCard Icon={Snapchat} title="Snapchat" />
+              <MiniCard Icon={Tiktok} title="TikTok" />
+              <MiniCard Icon={Messenger} title="Messenger" />
+              <MiniCard Icon={GooglePhotos} title="Google Photos" />
+              <MiniCard Icon={WeChat} title="WeChat" />
               <MiniCard Icon={Gmail} title="Gmail" />
             </Grid>
             
           </Grid>
 
-          <Section heading="Become a Web App Developer" subheading="resources linked below." />
+          <Section heading="User & Development Resources" subheading="resources linked below." />
           <Grid container direction="row">
             <CTA /> 
           </Grid>

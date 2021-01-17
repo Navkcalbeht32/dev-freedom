@@ -4,28 +4,25 @@ import LinkCard from '../LinkCard/LinkCard.component';
 import './CTA.styles.scss';
 import PhoneImage from '../../assets/phone-image.png';
 import CustomButton from '../Button/CustomButton.component';
-import Web from '../../assets/web.svg';
+import Web from '../../assets/computer.svg';
 import Tools from '../../assets/tools.svg';
-import Phone from '../../assets/phone.svg';
+import Phone from '../../assets/smartphone.svg';
+import Vpn from '../../assets/vpn.svg';
+import OS from '../../assets/operating-system.svg';
+import Software from '../../assets/software.svg';
 
 const CTA = () => {
     return (
         <Grid container className="cta">
-            <Grid item xs={12} sm={12} md={7}>
-                <LinkCard icon={Web} title="Web Application Development Resources" />
-                <LinkCard icon={Phone} title="Native App Development Resources" />
+            <Grid container justify="center" md={12}>
+                <LinkCard icon={OS} title="Secure Operating Systems (PC/Android)" />
+                <LinkCard icon={Vpn} title="Private Home Network Guide" />
+                <LinkCard icon={Software} title="Alternatives Applications" />
                 <LinkCard icon={Tools} title="Tools Against Censorship" />
+                <LinkCard icon={Phone} title="Native App Development Resources" />
+                <LinkCard icon={Web} title="Web App Development Resources" />
             </Grid>
-            <Grid item xs={12} sm={12} md={5}>
-                <img src={PhoneImage} alt="smart phone image" className="phone-image" />
-                <div className="info-container">
-                    <h3>e Foundation</h3>
-                    <p>Open Source mobile operating systems that respect users’ data privacy.</p>
-                    <div className="button-container">
-                        <CustomButton title="Learn More" />
-                    </div>
-                </div>
-            </Grid>
+            
         </Grid>
     )
 }
